@@ -10,6 +10,7 @@
   width: calc(100% / 3 - 8%);
   height: 70vh;
   position: relative;
+  transition: filter 0.5s ease-in-out;
 }
 
 .ms-card__background {
@@ -18,6 +19,7 @@
   height: 100%;
   object-fit: cover;
   opacity: 1;
+  transition: opacity 1s ease-in-out;
 }
 
 .ms-card__image {
@@ -25,6 +27,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transition: 1s ease-in-out;
 }
 
 .ms-card__title {
@@ -35,4 +38,5 @@
   text-align: center;
   width: 100%;
   bottom: 0;
+  transition: bottom 1s ease-in-out;
 }
