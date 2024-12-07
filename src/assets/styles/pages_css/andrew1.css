@@ -1,0 +1,7 @@
+@import url(../reset.css);
+
+.as-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+}
