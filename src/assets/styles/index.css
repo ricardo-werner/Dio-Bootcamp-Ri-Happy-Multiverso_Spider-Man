@@ -1,5 +1,8 @@
+@import url(reset.css);
 @import url(global.css);
 @import url(./home/home_header.css);
 @import url(./home/home_main.css);
 @import url(./home/home_main_action.css);
 @import url(./home/home_footer.css);
+
+@import url(../styles/pages_css/andrew1.css);
