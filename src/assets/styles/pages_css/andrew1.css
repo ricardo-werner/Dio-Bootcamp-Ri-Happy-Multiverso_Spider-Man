@@ -2,6 +2,91 @@
 
 .as-wrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   height: 100vh;
 }
+
+.as-wrapper .as-left-collumn {
+  width: 6.5rem;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.as-main__content {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  padding-left: 48rem;
+}
+
+.as-wrapper .as-left-collumn .as-navigator {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.as-wrapper .as-left-collumn .as-navigator::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0.2rem;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 0;
+}
+
+.as-wrapper .as-left-collumn .as-navigator ul {
+  z-index: 1;
+}
+
+.as-wrapper .as-left-collumn .as-navigator ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+  width: 2rem;
+  height: 2rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 50%;
+  background-color: #000000;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.as-wrapper .as-left-collumn .as-navigator ul li:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.as-wrapper .as-left-collumn .as-navigator ul li a {
+  color: #ffffff;
+}
+
+.as-wrapper .as-left-collumn .as-navigator ul li a:hover {
+  color: #000000;
+}
+
+.as-wrapper .as-left-collumn .as-navigator ul li:first-child {
+  margin-top: 0;
+}
+.as-wrapper .as-left-collumn .as-navigator ul li:last-child {
+  margin-bottom: 0;
+}
+
+.as-navigator .as-navigator__icon {
+  position: absolute;
+  top: -2rem;
+}
+
+
+
+
+
+
