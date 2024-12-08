@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(global.css);
+@import url(body.css);
 @import url(./home/home_header.css);
 @import url(./home/home_main.css);
 @import url(./home/home_main_action.css);
