@@ -1,9 +1,11 @@
 .fs-control {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  bottom: 2.4rem;
+  width: 100%;
 }
 
 .fs-control__button {
@@ -26,6 +28,12 @@
 }
 
 .fs-control__button:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 0.3rem solid var(--color-primary);
+}
+
+.fs-control__button--active {
   background-color: var(--color-white);
   color: var(--color-primary);
   border: 0.3rem solid var(--color-primary);
