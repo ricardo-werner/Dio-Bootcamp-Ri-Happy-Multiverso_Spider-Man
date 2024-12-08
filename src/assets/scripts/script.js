@@ -21,4 +21,21 @@ function addEventListenersToCard() {
 
 document.addEventListener("DOMContentLoaded", addEventListenersToCard, false);
 
+/*card carroussel*/
+
+function selectedCarrousselItem(selectedButtonElement) {
+  const carrousselItem = selectedButtonElement.id;
+  const carrousselItems = document.querySelector(".ms-cards__carroussel");
+  const transform = carrousselItems.style.transform;
+  const rotateY = transform.match(/rotateY\((-?\d+deg)\)/i);
+  const rotateYValue = -120 * (Number(carrousselItem - 1));
+  const newTransform = transform.replace(rotateY[0], `rotateY(${rotateYValue}deg)`);
+
+  carrousselItems.style.transform = newTransform;
+
+  const activeSelectedButton = document.querySelector(".fs-control__button--active");
+  activeSelectedButton.classList.remove("fs-control__button--active");
+  selectedButtonElement.classList.add("fs-control__button--active");
+}
+
 
