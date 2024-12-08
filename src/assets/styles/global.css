@@ -9,27 +9,10 @@
   --color-black: #000000;
   --color-neutral: #ffefef;
 
-  --text-regular: 400 1.8rem/3.26rem var(--font-family-popins);
-  --text-regular-p: 400 2.4rem/2.88rem var(--font-family-lato);
+  --text-regular: 400 1.6rem/3.26rem var(--font-family-popins);
+  --text-regular-p: 400 1.3rem/2.88rem var(--font-family-lato);
   
   --text-bold-3: 700 3.2rem/5.8rem var(--font-family-popins);
   --text-bold-4: 700 4rem/7.24rem var(--font-family-popins);
 }
 
-body {
-  font: var(--text-regular);
-  background-color: var(--color-primary);
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/spider-man-background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-  width: 100%;
-  height: 100%;
-  transition: background-image 0.1s ease-in-out, opacity 0.1s ease-in-out;
-}
