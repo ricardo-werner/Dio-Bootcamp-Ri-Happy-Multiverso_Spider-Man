@@ -102,7 +102,10 @@
 }
 
 .as-wrapper .as-main-top__content .as-main-top__content__title img {
-  margin: 3rem 0 2rem 1rem;
+  margin: 0.7rem 0 0 2rem;
+  overflow: hidden;
+  width: 100rem;
+  height: 15rem;
 }
 
 .as-wrapper .as-main-top__content__body .as-main-top__description {
@@ -196,9 +199,9 @@
 .as-wrapper .as-main-bottom__content ul {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
-  margin-right: 40rem;
+  margin: 0.4rem 39rem 0 0;
   gap: 0 1rem;
+  overflow: hidden;
 }
 
 .as-wrapper .as-main-bottom__content ul li {
