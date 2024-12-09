@@ -87,7 +87,7 @@ No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
 1. Clone o repositório:
    
-    git clone 
+    git clone https://github.com/ricardo-werner/Dio-Bootcamp-Ri-Happy-Multiverso_Spider-Man.git
 
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
